@@ -72,7 +72,7 @@ export default function Form() {
         return;
       }
 
-      const response = await axios.post("https://password-generator-backend.vercel.app/password", {
+      const response = await axios.post("https://passwordgenerator-backend.onrender.com/", {
         password: values,
       });
 
