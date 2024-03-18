@@ -72,7 +72,7 @@ export default function Form() {
         return;
       }
 
-      const response = await axios.post("https://passwordgenerator-backend.onrender.com/", {
+      const response = await axios.post("https://passwordgenerator-backend.onrender.com/password", {
         password: values,
       });
 
